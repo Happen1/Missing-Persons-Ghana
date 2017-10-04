@@ -5,10 +5,3 @@
   h4 {
     color: lightblue;
   }
-
-  .first {
-    border-style: solid;
-    border-width: thin;
-    border-color: red;
-    border: 5px;
-  }
