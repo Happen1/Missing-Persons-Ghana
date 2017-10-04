@@ -1,37 +1,48 @@
 /*Styles for index.html Starts Here By Erica*/
-body{
+
+body {
   background-image: url("../images/logos/d6be619f7c91d89b263ad0dd95c8e95e_original.jpg");
-/*background: green;*/
+  /*background: green;*/
 }
+
+
 /*#ourValues {
     background-color: #f6f6f6;
 }*/
+
 form#login-form {
-    border: 3px solid #f1f1f1;
-    margin: auto;
-    padding: inherit;
+  border: 3px solid #f1f1f1;
+  margin: auto;
+  padding: inherit;
 }
+
+
 /* part-width input fields */
-input[type=text], input[type=password]
-{
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
+
+
 /*created id to style the submit button for log in */
+
 #login-button {
-    /*background-color: #D3D3D3;*/
-    color: black;
-    padding: 15px 15px;
-    margin: 10px 10px;
-    border: none;
-    cursor: pointer;
-    width: inherit;
-    /*reduced login button width*/
+  /*background-color: #D3D3D3;*/
+  color: black;
+  padding: 15px 15px;
+  margin: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: inherit;
+  /*reduced login button width*/
 }
+
+
 /*#cancel-button {
     background-color: #D3D3D3;
     width: inherit;
@@ -40,56 +51,65 @@ input[type=text], input[type=password]
 }*/
 
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .imgcontainer {
-    text-align: center;
-    margin: 28px 0 12px 0;
+  text-align: center;
+  margin: 28px 0 12px 0;
 }
+
+
 /*avatar image styled*/
+
 img#avatar {
-    width: 20%;
-    border-radius: 30%;
+  width: 20%;
+  border-radius: 30%;
 }
+
 
 /*.container {
     padding: 16px;
 }*/
 
 span#psw {
-    /*float: right;*/
-    padding-top: 16px;
-    padding-left: 15px;
+  /*float: right;*/
+  padding-top: 16px;
+  padding-left: 15px;
 }
+
 
 /* Change styles for span and cancel button on extra small screens */
+
 @media screen and (max-width: 300px) {
-    span#psw {
-       display: block;
-       float: none;
-    }
+  span#psw {
+    display: block;
+    float: none;
+  }
 }
+
+
 /*login page code ends*/
+
 form#signup-form {
-    border: 3px solid #f1f1f1;
-    margin: auto;
-    padding: inherit;
+  border: 3px solid #f1f1f1;
+  margin: auto;
+  padding: inherit;
 }
 
-input#signup-input[type=text], input#signup-input[type=password]
-{
-      width: 93%;
-      padding: 10px 10px;
-      margin: 6px 0;
-      display: inline-block;
-      border: 2px solid #ccc;
-      box-sizing: border-box;
-
+input#signup-input[type=text], input#signup-input[type=password] {
+  width: 93%;
+  padding: 10px 10px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
 }
 
 
 /* Set a style for all buttons */
+
+
 /*button {
     background-color: #4CAF50;
     color: white;
@@ -100,43 +120,57 @@ input#signup-input[type=text], input#signup-input[type=password]
     width: 100%;
 }*/
 
+
 /* Extra styles for the cancel button */
+
+
 /*.cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
 }*/
 
+
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {
-    float: left;
-    width: 50%;
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
 }
 
+
 /* Add padding to container elements */
+
+
 /*.container {
     padding: 16px;
 }*/
 
+
 /* Clear floats */
+
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
+
 /* Change styles for cancel button and signup button on extra small screens */
+
 @media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
 }
 
 
 /*signup page code ends*/
+
 .footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
 
 /*Styles for index.html Starts Here By Erica*/
