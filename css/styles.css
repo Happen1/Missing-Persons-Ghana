@@ -222,7 +222,9 @@ input#signup-input[type=text], input#signup-input[type=password] {
 }
 
 .footer {
-  background-color: #C3D7EC;
+  /*background-color: #C3D7EC;*/
+  background-color: #000000;
+  color: white;
 }
 
 .copyright {
