@@ -10,6 +10,10 @@
 
 /*Styles for index.html Starts Here By Samirah*/
 
+.case-search {
+  border-right: solid #A2B6CA;
+}
+
 #thumbnail-hover {
   position: relative;
   width: 50%;
@@ -22,10 +26,6 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  /*border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;*/
 }
 
 .middle {
