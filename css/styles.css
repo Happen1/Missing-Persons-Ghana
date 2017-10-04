@@ -1,14 +1,19 @@
-  .nav {
-    text-align: center;
-  }
+/*Styles for legal.html starts here by Bright*/
 
-  h4 {
-    color: lightblue;
-  }
+.nav {
+  text-align: center;
+}
 
-  .first {
-    border-style: solid;
-    border-width: thin;
-    border-color: red;
-    border: 5px;
-  }
+h4 {
+  color: lightblue;
+}
+
+.first {
+  border-style: solid;
+  border-width: thin;
+  border-color: red;
+  border: 5px;
+}
+
+
+/*Styles for legal.html ends here by Bright*/
