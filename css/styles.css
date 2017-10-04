@@ -221,6 +221,14 @@ input#signup-input[type=text], input#signup-input[type=password] {
   padding: 16px 32px;
 }
 
+.footer {
+  background-color: #C3D7EC;
+}
+
+.copyright {
+  float: right;
+}
+
 
 /*Styles for index.html Ends Here By Samirah*/
 
