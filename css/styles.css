@@ -6,6 +6,7 @@
 form#login-form {
     border: 3px solid #f1f1f1;
     margin: auto;
+    padding: inherit;
 }
 /* part-width input fields */
 input[type=text], input[type=password]
@@ -29,7 +30,7 @@ input[type=text], input[type=password]
     /*reduced login button width*/
 }
 #cancel-button {
-    background-color: #D3D3D3;
+    /*background-color: #D3D3D3;*/
     width: inherit;
     padding: 15px 15px;
     margin: 10px 10px;
@@ -70,7 +71,20 @@ span#psw {
 form#signup-form {
     border: 3px solid #f1f1f1;
     margin: auto;
+    padding: inherit;
 }
+
+input#signup-input[type=text], input#signup-input[type=password]
+{
+      width: 93%;
+      padding: 10px 10px;
+      margin: 6px 0;
+      display: inline-block;
+      border: 2px solid #ccc;
+      box-sizing: border-box;
+
+}
+
 
 /* Set a style for all buttons */
 /*button {
