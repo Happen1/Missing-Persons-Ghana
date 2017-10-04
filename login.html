@@ -54,27 +54,27 @@ rel="stylesheet">
 <h2>Login Form</h2>
 
 
-<form action="/action_page.php">
+<form id ="login-form" action="/action_page.php">
   <div class="imgcontainer">
-    <img src="images/logos/noface.jpg" alt="Avatar" class="avatar">
+    <img src="images/logos/noface.jpg" alt="Avatar" id="avatar">
   </div>
 
   <div class="container">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
-
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 </div>
-    <div class="container">
-    <button id ="login-button" type="submit">Login</button>
-    <input type="checkbox" checked="checked">Remember me >
-  </div>
 
-  <div id="cancel-button" class="container" >
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+    <div id ="login-button" class="container">
+    <button type="submit">Login</button>
+    </div>
+<input type="checkbox" checked="checked">Remember me
+
+    <div id="cancel-button" class="container" >
+    <button type="button">Cancel</button>
+    <span id="psw"><strong>Forgot</strong><a href="#"><strong> password?</strong></a></span>
+    </div>
 </form>
 </div>
 
