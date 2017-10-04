@@ -174,3 +174,69 @@ input#signup-input[type=text], input#signup-input[type=password] {
 
 
 /*Styles for index.html Starts Here By Erica*/
+
+
+/*Styles for index.html Starts Here By Samirah*/
+
+.case-search {
+  border-right: solid #A2B6CA;
+}
+
+#thumbnail-hover {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+#image-hover:hover .image {
+  opacity: 0.3;
+}
+
+#image-hover:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+/*Styles for index.html Ends Here By Samirah*/
+
+
+/*Styles for missing-persons.html Starts Here By Samirah*/
+
+.thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+/*Styles for missing-persons.html Ends Here By Samirah*/
