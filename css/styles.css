@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.navbar {
+  background-color: #B7C6BE;
+}
+
 
 /*Styles for index.html Starts Here By Erica*/
 
@@ -46,6 +50,10 @@
   color: #FFFFFF;
 }
 
+#findme {
+  color: #FFFFFF;
+}
+
 #thumbnail-hover {
   position: relative;
   width: 50%;
@@ -54,7 +62,7 @@
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 300px;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -79,11 +87,33 @@
 }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #91AEBE;
+  color: #FFFFFF;
   font-size: 16px;
   padding: 16px 32px;
 }
+
+
+/*Report a missing person section*/
+
+.report-section {
+  background-color: #91AEBE;
+}
+
+.report {
+  border-right: solid #455A64;
+}
+
+.report-btn {
+  background-color: #455A64;
+  color: #FFFFFF;
+  width: 300px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+
+/*Footer*/
 
 .footer {
   background-color: #B7C6BE;
@@ -103,7 +133,7 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 250px;
+  width: 150px;
 }
 
 .thumbnail:hover {
