@@ -1,28 +1,24 @@
 /*Styles for index.html Starts Here By Erica*/
+
 body {
   background-image: url("../images/logos/d6be619f7c91d89b263ad0dd95c8e95e_original.jpg");
-/*background: green;*/
 }
-/*#nav{
-  background-color: #D6DBDF;
-  padding-bottom: 0px;
-}*/
 
-#ourValues {
-    border-right: 5px solid #f6f6f6;
-}
-#ourAim {
-    border-right: 5px solid #f6f6f6;
-}
-#ourMission {
-    border-right: 5px solid #f6f6f6;
-}
+
+/*Styles for index.html Ends Here By Erica*/
+
+
+/*Styles for login.html Starts Here By Erica*/
+
 form#login-form {
   border: 3px solid #f1f1f1;
   margin: auto;
   padding: inherit;
 }
+
+
 /* part-width input fields */
+
 input[type=text], input[type=password] {
   width: 90%;
   padding: 12px 20px;
@@ -31,23 +27,20 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+
+
 /*created id to style the submit button for log in */
+
 #login-button {
-    /*background-color: #D3D3D3;*/
+  /*background-color: #D3D3D3;*/
   color: black;
   padding: 15px 15px;
   margin: 10px 10px;
   border: none;
   cursor: pointer;
   width: inherit;
-    /*reduced login button width*/
+  /*reduced login button width*/
 }
-/*#cancel-button {
-    background-color: #D3D3D3;
-    width: inherit;
-    padding: 15px 15px;
-    margin: 10px 10px;
-}*/
 
 button:hover {
   opacity: 0.8;
@@ -57,30 +50,36 @@ button:hover {
   text-align: center;
   margin: 28px 0 12px 0;
 }
+
+
 /*avatar image styled*/
+
 img#avatar {
   width: 20%;
   border-radius: 30%;
 }
 
-/*.container {
-    padding: 16px;
-}*/
-
 span#psw {
-    /*float: right;*/
   padding-top: 16px;
   padding-left: 15px;
 }
 
+
 /* Change styles for span and cancel button on extra small screens */
+
 @media screen and (max-width: 300px) {
   span#psw {
     display: block;
     float: none;
   }
 }
-/*login page code ends*/
+
+
+/*Styles for login.html Ends Here By Erica*/
+
+
+/*Styles for signup.html Ends Here By Erica*/
+
 form#signup-form {
   border: 3px solid #f1f1f1;
   margin: auto;
@@ -97,42 +96,22 @@ input#signup-input[type=text], input#signup-input[type=password] {
 }
 
 
-/* Set a style for all buttons */
-/*button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}*/
-
-/* Extra styles for the cancel button */
-/*.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}*/
-
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {
+
+.cancelbtn, .signupbtn {
   float: left;
   width: 50%;
 }
 
-/* Add padding to container elements */
-/*.container {
-    padding: 16px;
-}*/
-
-/* Clear floats */
-.clearfix::after {
+.clearfix:after {
   content: "";
   clear: both;
   display: table;
 }
 
+
 /* Change styles for cancel button and signup button on extra small screens */
+
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
     width: 100%;
@@ -140,11 +119,22 @@ input#signup-input[type=text], input#signup-input[type=password] {
 }
 
 
-/*signup page code ends*/
-/*.footer {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}*/
+/*Styles for signup.html Ends Here By Erica*/
 
-/*Styles for index.html Starts Here By Erica*/
+
+/*Styles for aboutus.html Starts Here By Erica*/
+
+#ourValues {
+  border-right: 5px solid #f6f6f6;
+}
+
+#ourAim {
+  border-right: 5px solid #f6f6f6;
+}
+
+#ourMission {
+  border-right: 5px solid #f6f6f6;
+}
+
+
+/*Styles for aboutus.html Ends Here By Erica*/
