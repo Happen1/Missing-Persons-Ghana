@@ -63,43 +63,85 @@
 
   <div class="container">
     <form>
-      1. About the missing person<br>
-      <input="text" value="Complete as much information as you can here">
-        <br> Full name and address<br>
-        <input="text" name="fullname" value="Complete as much information as you can here">
-          <br> Age and date of birth<br>
-          <input="text" value="Complete as much information as you can here">
-            <br> Physical description:
-            <ul>
-              <li>Height</li>
-              <li>Build (e.g. thin, medium, large)</li>
-              <li>Ethnic appearance (e.g. White, Asian, Afro-Caribbean)
-              </li>
-              <li>Eye colour</li>
-              <li>Hair colour and style</li>
-              <li>Any glasses or contact lenses worn</li>
-            </ul>
-            <input="text" name="physical description" value="Complete as much information as you can here">
-              <br> Any distinctive features such as tattoos, scars, birthmarks or any other distinguishing features?<br>
-              <input="text" value="Complete as much information as you can here">
-                <br> Do you have a recent photograph?<br>
-                <input="text" value="Complete as much information as you can here">
-                  <br> If the missing person has a mobile phone with them, write down the number and the network (e.g. MTN, Vodafone, Airtel) if you know it<br>
-                  <input="text" value="Complete as much information as you can here">
-                    <br> Does the missing person suffer from any medical condition, including mental health conditions? Do they need medication for this and do they have it with them?<br>
-                    <input="text" value="Complete as much information as you can here">
-                      <br> What are the circumstances of this person going missing and where were they last seen?<br>
-                      <input="text" value="Complete as much information as you can here">
-                        <br> 2. Information to keep handy<br>
-                        <input="text" value="Complete as much information as you can here">
-                          <br> Police officer name and contact number:<br>
-                          <input="text" value="Complete as much information as you can here">
-                            <br> Police reference number:<br>
-                            <input="text" value="Complete as much information as you can here">
-                              <br><br>
-                              <input type="submit" value="Submit">
+      <div class="form-group">
+        <label>1. About the missing person</label>
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input id="fullname" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input id="address" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="age">Age and date of birth</label>
+          <input id="age" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="physical"> Physical description:</label>
+          <ul>
+            <li>Height</li>
+            <li>Build (e.g. thin, medium, large)</li>
+            <li>Ethnic appearance (e.g. White, Asian, Afro-Caribbean)
+            </li>
+            <li>Eye colour</li>
+            <li>Hair colour and style</li>
+            <li>Any glasses or contact lenses worn</li>
+          </ul>
+          <input id="physical" class="form-control"=t ype="text">
+        </div>
+
+        <div class="form-group">
+          <label for="distinctive">Any distinctive features such as tattoos, scars, birthmarks or any other distinguishing features?</label>
+          <input id="distinctive" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="recent">Do you have a recent photograph?</label>
+          <input id="recent" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label>Upload a photograph?</label>
+          <img src="url" alt="missing person" style="width:width;height:height;">
+        </div>
+
+        <div class="form-group">
+          <label for="person">If the missing person has a mobile phone with them, write down the number and the network (e.g. MTN, Vodafone, Airtel) if you know it</label>
+          <input id="person" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="medical">Does the missing person suffer from any medical condition, including mental health conditions? Do they need medication for this and do they have it with them?</label>
+          <input id="medical" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="circumstances">What are the circumstances of this person going missing and where were they last seen?</label>
+          <input id="circumstances" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="information">2. Information to keep handy</label>
+          <input id="information" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="police1"> Police officer name and contact number:</label>
+          <input id="police1" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="police2">Police reference number:</label>
+          <input id="police2" class="form-control" type "text">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-default">Submit</button>
     </form>
-  </div>
+    </div>
 
 </body>
 
