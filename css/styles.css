@@ -10,8 +10,36 @@
 
 /*Styles for index.html Starts Here By Samirah*/
 
+.case_search {
+  background-color: #455A64;
+}
+
+#search_gender {
+  width: 200px;
+}
+
+#search_ethnicity {
+  width: 200px;
+}
+
+#search_age {
+  width: 150px;
+}
+
+#search_lastseen {
+  float: right;
+  width: 150px;
+}
+
+#search_btn {
+  text-align: center;
+  width: 250px;
+  margin-left: 50px;
+}
+
 .case-search {
   border-right: solid #A2B6CA;
+  color: #FFFFFF;
 }
 
 #thumbnail-hover {
@@ -71,7 +99,7 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  width: 250px;
 }
 
 .thumbnail:hover {
