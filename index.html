@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/scripts.js"></script>
   <title>Missing Person Ghana</title>
 
 </head>
@@ -15,37 +14,35 @@
 <body>
   <img src="images/logos/logo1.png" alt="">
   <!-- added logo -->
-  <div class="container">
-    <!-- <div id="nav"> -->
-      <!--  added a navigational bar with links to other pages-->
-      <nav id="nav" class="navbar navbar-default">
-        <div class="container-fluid">
-          <ul id="ul" class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="missing-persons.html">Missing Persons</a></li>
-            <li><a href="legal.html">Legal</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <!-- added signup page and log in page -->
-            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <!-- added search form and button -->
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Search</button>
-          </form>
-        </div>
-      </nav>
-      </ul>
-    <!-- </div> -->
+  <div id="nav" class="container">
+    <!--  added a navigational bar with links to other pages-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="missing-persons.html">Missing Persons</a></li>
+          <li><a href="legal.html">Legal</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <!-- added signup page and log in page -->
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+        <form class="navbar-form navbar-right">
+          <!-- added search form and button -->
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+      </div>
+    </nav>
+    </ul>
   </div>
   </div>
   </nav>
 
-  <div class="container well">
+  <section class="container well case_search ">
     <div class="row">
       <div class="col-md-8 case-search">
         <h2>Unidentified Case Search</h2>
@@ -60,11 +57,17 @@
             <div class="input">
               <select id="search_ethnicity" name="search[ethnicity]"><option value="">Any</option><option value="1">mixed</option><option value="2">african</option><option value="3">asian</option><option value="4">european</option><option value="5">american</option></select><br>
             </div>
-            <div>When they were last seen</div>
-            <label for="search_age">The age</label>
+            <br>
+            <div><strong>When they were last seen</strong></div>
+
+            <label id="search_age" for="search_age">The age</label>
+            <label id="search_lastseen" for="search_lastseen">The Date dd-mm-yyyy</label>
             <div class="input">
-              <input type="text" id="search_age" name="search[age]"><br>
+              <input type="text" id="search_age" name="search[age]" />
+              <input type="text" id="search_lastseen" name="search[lastseen]" />
             </div>
+            <br>
+            <button id="search_btn" type="button" name="search">Search</button>
           </form>
         </div>
         <div class="col-md-6 container">
@@ -78,16 +81,89 @@
       </div>
 
       <div class="col-md-4 container" id="image-hover">
-        <h2>Do you know me?</h2>
+        <h2 id="findme">Do you know me?</h2>
         <hr>
-        <img src="images/faces/image1.jpeg" alt="male mid 20s" class="image thumbnail" id="thumbnail-hover">
+        <!-- <img src="images/faces/image1.jpeg" alt="male mid 20s" class="image thumbnail" id="thumbnail-hover">
         <div class="middle">
           <div class="text">John Doe</div>
+        </div> -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/faces/image1.jpeg" alt="male mid 20s" class="image thumbnail" id="thumbnail-hover">
+              <div class="middle">
+                <div class="text">John Doe</div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/faces/image2.jpeg" alt="female mid 30s" class="image thumbnail" id="thumbnail-hover">
+              <div class="middle">
+                <div class="text">John Doe</div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/faces/image1.jpeg" alt="male mid 20s" class="image thumbnail" id="thumbnail-hover">
+              <div class="middle">
+                <div class="text">John Doe</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
+  <section class="container well report-section">
+    <div class="row">
+      <div class="col-md-6 report">
+        <h1>Report a Missing Person</h1>
+        <hr>
+        <p>If you believe that someone is missing then please contact your local police station. If you are extremely concerned for their welfare then dial 18555 Toll Free and ask for the Police or send an email to info@police.gov.gh.</p>
+        <a href="report-missing-persons.html">
+          <button class="report-btn" type="submit" name="button">Report a Missing Person</button>
+        </a>
+      </div>
+      <div class="col-md-6 additions">
+        <h1>Latest Additions</h1>
+        <hr>
+        <div class="col-md-4">
+          <a class="thumbnail" target="_blank" href="missing-persons.html">
+          <img src="images/faces/images7.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="thumbnail" target="_blank" href="missing-persons.html">
+          <img src="images/faces/images8.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="thumbnail" target="_blank" href="missing-persons.html">
+          <img src="images/more-faces/images (3).jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer class="container-fluid footer">
     <div>
@@ -106,6 +182,7 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

@@ -1,129 +1,157 @@
-  /*Styles for index.html Starts Here By Erica*/
+    /*Styles for index.html Starts Here By Erica*/
 
-<<<<<<< HEAD=======>>>>>>>3c340885cc0e6d1f22416b186ff8f1c61ea62bef body {
-  background-image: url("../images/logos/d6be619f7c91d89b263ad0dd95c8e95e_original.jpg");
-  /*background: green;*/
-}
+  .case_search {
+    background-color: #455A64;
+  }
 
+  #search_gender {
+    width: 200px;
+    color: #455A64;
+  }
 
-/*#nav{
-  background-color: #D6DBDF;
-  padding-bottom: 0px;
-}*/
+  #search_ethnicity {
+    width: 200px;
+    color: #455A64;
+  }
 
-#ourValues {
-  border-right: 5px solid #f6f6f6;
-}
+  #search_age {
+    width: 150px;
+  }
 
-#ourAim {
-  border-right: 5px solid #f6f6f6;
-}
+  #search_lastseen {
+    float: right;
+    width: 150px;
+  }
 
-#ourMission {
-  border-right: 5px solid #f6f6f6;
-}
+  #search_btn {
+    text-align: center;
+    width: 250px;
+    margin-left: 50px;
+    color: #455A64;
+    background-color: #91AEBE;
+  }
 
-form#login-form {
-  border: 3px solid #f1f1f1;
-  margin: auto;
-  padding: inherit;
-}
+  .case-search {
+    border-right: solid #A2B6CA;
+    color: #FFFFFF;
+  }
 
+  #findme {
+    color: #FFFFFF;
+  }
 
-/* part-width input fields */
+  #ourMission {
+    border-right: 5px solid #f6f6f6;
+  }
 
-input[type=text], input[type=password] {
-  width: 90%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
+  .image {
+    opacity: 1;
+    display: block;
+    width: 300px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  /* part-width input fields */
 
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /*created id to style the submit button for log in */
 
-/*created id to style the submit button for log in */
-
-#login-button {
-  /*background-color: #D3D3D3;*/
-  color: black;
-  padding: 15px 15px;
-  margin: 10px 10px;
-  border: none;
-  cursor: pointer;
-  width: inherit;
-  /*reduced login button width*/
-}
-
-
-/*#cancel-button {
+  #login-button {
+    /*background-color: #D3D3D3;*/
+    color: black;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: inherit;
+    /*reduced login button width*/
+  }
+  /*#cancel-button {
     background-color: #D3D3D3;
     width: inherit;
     padding: 15px 15px;
     margin: 10px 10px;
 }*/
 
-button:hover {
-  opacity: 0.8;
-}
+  button:hover {
+    opacity: 0.8;
+  }
 
-.imgcontainer {
-  text-align: center;
-  margin: 28px 0 12px 0;
-}
+  .text {
+    background-color: #91AEBE;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*Report a missing person section*/
 
+  .report-section {
+    background-color: #91AEBE;
+  }
 
-/*avatar image styled*/
+  .report {
+    border-right: solid #455A64;
+  }
 
-img#avatar {
-  width: 20%;
-  border-radius: 30%;
-}
+  .report-btn {
+    background-color: #455A64;
+    color: #FFFFFF;
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  /*Footer*/
 
-
-/*.container {
+  .footer {
+    background-color: #B7C6BE;
+  }
+  /*.container {
     padding: 16px;
 }*/
 
-span#psw {
-  /*float: right;*/
-  padding-top: 16px;
-  padding-left: 15px;
-}
-
-
-/* Change styles for span and cancel button on extra small screens */
-
-@media screen and (max-width: 300px) {
   span#psw {
-    display: block;
-    float: none;
+    /*float: right;*/
+    padding-top: 16px;
+    padding-left: 15px;
   }
-}
+  /* Change styles for span and cancel button on extra small screens */
 
+  @media screen and (max-width: 300px) {
+    span#psw {
+      display: block;
+      float: none;
+    }
+  }
+  /*login page code ends*/
 
-/*login page code ends*/
+  form#signup-form {
+    border: 3px solid #f1f1f1;
+    margin: auto;
+    padding: inherit;
+  }
 
-form#signup-form {
-  border: 3px solid #f1f1f1;
-  margin: auto;
-  padding: inherit;
-}
+  input#signup-input[type=text], input#signup-input[type=password] {
+    width: 93%;
+    padding: 10px 10px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
 
-input#signup-input[type=text], input#signup-input[type=password] {
-  width: 93%;
-  padding: 10px 10px;
-  margin: 6px 0;
-  display: inline-block;
-  border: 2px solid #ccc;
-  box-sizing: border-box;
-}
-
-
-/* Set a style for all buttons */
-
-
-/*button {
+  .find-someone {
+    background-color: #91AEBE;
+  }
+  /* Set a style for all buttons */
+  /*button {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -132,101 +160,95 @@ input#signup-input[type=text], input#signup-input[type=password] {
     cursor: pointer;
     width: 100%;
 }*/
-
-
-/* Extra styles for the cancel button */
-
-
-/*.cancelbtn {
+  /* Extra styles for the cancel button */
+  /*.cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
 }*/
+  /* Float cancel and signup buttons and add an equal width */
 
-
-/* Float cancel and signup buttons and add an equal width */
-
-<<<<<<< HEAD .cancelbtn, .signupbtn {
-  =======.cancelbtn, .signupbtn {
-    >>>>>>>3c340885cc0e6d1f22416b186ff8f1c61ea62bef float: left;
-    width: 50%;
-  }
-  /* Add padding to container elements */
-  /*.container {
+  <<<<<<< HEAD .cancelbtn, .signupbtn {
+    =======.cancelbtn, .signupbtn {
+      >>>>>>>3c340885cc0e6d1f22416b186ff8f1c61ea62bef float: left;
+      width: 50%;
+    }
+    /* Add padding to container elements */
+    /*.container {
     padding: 16px;
 }*/
-  /* Clear floats */
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  /* Change styles for cancel button and signup button on extra small screens */
-  @media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-      width: 100%;
+    /* Clear floats */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
     }
-  }
-  /*signup page code ends*/
-  .footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
-  /*Styles for index.html Starts Here By Erica*/
-  /*Styles for index.html Starts Here By Samirah*/
-  .case-search {
-    border-right: solid #A2B6CA;
-  }
-  #thumbnail-hover {
-    position: relative;
-    width: 50%;
-  }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-  }
-  #image-hover:hover .image {
-    opacity: 0.3;
-  }
-  #image-hover:hover .middle {
-    opacity: 1;
-  }
-  .text {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-  .footer {
-    /*background-color: #C3D7EC;*/
-    background-color: #000000;
-    color: white;
-  }
-  .copyright {
-    float: right;
-  }
-  /*Styles for index.html Ends Here By Samirah*/
-  /*Styles for missing-persons.html Starts Here By Samirah*/
-  .thumbnail {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
-  .thumbnail:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-  /*Styles for missing-persons.html Ends Here By Samirah*/
+    /* Change styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 300px) {
+      .cancelbtn, .signupbtn {
+        width: 100%;
+      }
+    }
+    /*signup page code ends*/
+    .footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+    /*Styles for index.html Starts Here By Erica*/
+    /*Styles for index.html Starts Here By Samirah*/
+    .case-search {
+      border-right: solid #A2B6CA;
+    }
+    #thumbnail-hover {
+      position: relative;
+      width: 50%;
+    }
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%)
+    }
+    #image-hover:hover .image {
+      opacity: 0.3;
+    }
+    #image-hover:hover .middle {
+      opacity: 1;
+    }
+    .text {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    .footer {
+      /*background-color: #C3D7EC;*/
+      background-color: #000000;
+      color: white;
+    }
+    .copyright {
+      float: right;
+    }
+    /*Styles for index.html Ends Here By Samirah*/
+    /*Styles for missing-persons.html Starts Here By Samirah*/
+    .thumbnail {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      width: 150px;
+    }
+    .thumbnail:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+    /*Styles for missing-persons.html Ends Here By Samirah*/
