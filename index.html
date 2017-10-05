@@ -45,7 +45,7 @@
   </div>
   </nav>
 
-  <div class="container well">
+  <section class="container well case_search ">
     <div class="row">
       <div class="col-md-8 case-search">
         <h2>Unidentified Case Search</h2>
@@ -61,10 +61,15 @@
               <select id="search_ethnicity" name="search[ethnicity]"><option value="">Any</option><option value="1">mixed</option><option value="2">african</option><option value="3">asian</option><option value="4">european</option><option value="5">american</option></select><br>
             </div>
             <div>When they were last seen</div>
-            <label for="search_age">The age</label>
+
+            <label id="search_age" for="search_age">The age</label>
+            <label id="search_lastseen" for="search_lastseen">The Date dd-mm-yyyy</label>
             <div class="input">
-              <input type="text" id="search_age" name="search[age]"><br>
+              <input type="text" id="search_age" name="search[age]" />
+              <input type="text" id="search_lastseen" name="search[lastseen]" />
             </div>
+            <br>
+            <button id="search_btn" type="button" name="search">Search</button>
           </form>
         </div>
         <div class="col-md-6 container">
@@ -86,7 +91,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 
   <footer class="container-fluid footer">
