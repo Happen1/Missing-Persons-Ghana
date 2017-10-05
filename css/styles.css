@@ -16,10 +16,12 @@
 
 #search_gender {
   width: 200px;
+  color: #455A64;
 }
 
 #search_ethnicity {
   width: 200px;
+  color: #455A64;
 }
 
 #search_age {
@@ -35,6 +37,8 @@
   text-align: center;
   width: 250px;
   margin-left: 50px;
+  color: #455A64;
+  background-color: #91AEBE;
 }
 
 .case-search {
@@ -82,7 +86,7 @@
 }
 
 .footer {
-  background-color: #C3D7EC;
+  background-color: #B7C6BE;
 }
 
 .copyright {
