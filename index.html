@@ -13,32 +13,26 @@
 
 <body>
   <img src="images/logos/logo1.png" alt="">
-  <!-- added logo -->
-  <div id="nav" class="container">
-    <!--  added a navigational bar with links to other pages-->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="missing-persons.html">Missing Persons</a></li>
-          <li><a href="legal.html">Legal</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <!-- added signup page and log in page -->
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
-        <form class="navbar-form navbar-right">
-          <!-- added search form and button -->
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Search</button>
-        </form>
-      </div>
-    </nav>
+  <nav class="navbar navbar-default container">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="missing-persons.html">Missing Persons</a></li>
+      <li><a href="legal.html">Legal</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <!-- added signup page and log in page -->
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
-  </div>
+    <form class="navbar-form navbar-right">
+      <!-- added search form and button -->
+      <div class="form-group">
+        <input type="text" class="form-control search_form" placeholder="Search">
+        <button type="submit" class="btn btn-default search_form">Search</button>
+      </div>
+    </form>
+  </nav>
+
   </div>
   </nav>
 
@@ -59,7 +53,7 @@
             </div>
             <br>
             <div><strong>When they were last seen</strong></div>
-
+            <br>
             <label id="search_age" for="search_age">The age</label>
             <label id="search_lastseen" for="search_lastseen">The Date dd-mm-yyyy</label>
             <div class="input">

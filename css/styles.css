@@ -139,6 +139,20 @@
   /*login page code ends*/
   /*Styles for index.html Starts Here By Samirah*/
 
+  .well {
+    background-color: #91AEBE;
+  }
+
+  .navbar {
+    background-color: #455A64;
+    height: 52px;
+  }
+
+  .search_form {
+    height: 25px;
+    display: inline-block;
+  }
+
   .case_search {
     background-color: #455A64;
   }
@@ -155,11 +169,13 @@
 
   #search_age {
     width: 150px;
+    height: 30px;
   }
 
   #search_lastseen {
     float: right;
     width: 150px;
+    height: 30px;
   }
 
   #search_btn {
@@ -177,10 +193,6 @@
 
   #findme {
     color: #FFFFFF;
-  }
-
-  .case-search {
-    border-right: solid #A2B6CA;
   }
 
   #thumbnail-hover {
@@ -221,11 +233,6 @@
     font-size: 16px;
     padding: 16px 32px;
   }
-  /*.footer {
-      /*background-color: #C3D7EC;*/
-  /*background-color: #000000;
-      color: white;
-    }*/
 
   .copyright {
     float: right;
@@ -255,7 +262,8 @@
   /*Footer*/
 
   .footer {
-    background-color: #B7C6BE;
+    /*background-color: #B7C6BE;*/
+    background-color: #455A64;
   }
   /*Styles for missing-persons.html Starts Here By Samirah*/
 
